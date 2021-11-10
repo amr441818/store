@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #eee;
+}
+.product {
+  direction: rtl;
+  padding: 20px 0;
+}
+.product .product_details,
+.product .description {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.product .product_details .details .price {
+  font-size: 20px;
+  font-weight: bold;
+}
+.product .product_details .details .share {
+  margin: 15px 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+.product .product_details .details .share ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product .product_details .details .share ul a {
+  text-decoration: none;
+}
+.product .product_details .details .share ul i {
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.product .product_details .details .share ul i:hover {
+  color: #fff;
+  background-color: #333;
+  transform: rotate(360deg) scale(1.1);
+}
+.product .product_details .add i {
+  float: right;
+  font-size: 20px;
+}
+.product .description ul {
+  padding: 0;
+}
+.product .description ul li {
+  list-style: none;
+  position: relative;
+  margin: 15px 0;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #eef3f6;
+  border-radius: 5px;
+}
